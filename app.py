@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 from streamlit_autorefresh import st_autorefresh
 import time
 
-# 🔄 Refresca cada 100ms (simulación de animación)
-st_autorefresh(interval=100, limit=None, key="refresh")
 
 # 🧾 Configuración inicial
 st.set_page_config(page_title="Simulación de Onda Estacionaria", layout="centered")
