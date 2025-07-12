@@ -2,7 +2,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
+# Refrescar cada 100 ms (~10 FPS)
+st_autorefresh(interval=100, limit=200, key="física")
 # Configurar la página
 st.set_page_config(page_title="Simulación de Onda Estacionaria", layout="centered")
 st.title(" Simulación de Onda Estacionaria en Cuerda Vibrante")
