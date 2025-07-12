@@ -5,7 +5,7 @@ import streamlit as st
 
 # Configurar la página
 st.set_page_config(page_title="Simulación de Onda Estacionaria", layout="centered")
-st.title("🌊 Simulación de Onda Estacionaria en Cuerda Vibrante")
+st.title(" Simulación de Onda Estacionaria en Cuerda Vibrante")
 st.markdown("**Autor:** Yamir Bermudo Reyes 23190004")
 
 st.write("Esta app simula una onda estacionaria en una cuerda fija por ambos extremos. "
