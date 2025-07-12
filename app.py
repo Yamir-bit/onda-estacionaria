@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from streamlit_autorefresh import st_autorefresh
-import time
 
 
 # 🧾 Configuración inicial
