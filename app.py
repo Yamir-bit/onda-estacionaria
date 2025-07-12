@@ -6,7 +6,7 @@ import time
 
 # Configuración de la app
 st.set_page_config(page_title="Simulación de Onda Estacionaria", layout="centered")
-st.title("🌊 Simulación de Onda Estacionaria en Cuerda Vibrante")
+st.title("Simulación de Onda Estacionaria en Cuerda Vibrante")
 st.markdown("**Autor:** Yamir B.")
 st.write("Esta app simula una onda estacionaria en una cuerda fija por ambos extremos. "
          "Puedes cambiar el modo armónico y la amplitud para observar cómo varía la forma de la onda.")
