@@ -1,11 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-from streamlit_autorefresh import st_autorefresh
 import time
 
-# Recargar la página automáticamente cada 100ms (10 FPS aprox.)
-st_autorefresh(interval=100, limit=1000, key="refresh")
 
 # Configuración de la app
 st.set_page_config(page_title="Simulación de Onda Estacionaria", layout="centered")
